@@ -712,7 +712,7 @@ main .cr .cr-t {
   }
   .hero nav .burger-menu .burger-menu-icon {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 10px;
     left: 10px;
     z-index: 30;
