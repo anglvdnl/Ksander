@@ -509,7 +509,7 @@ main .cr .cr-t {
     font-size: 45px;
   }
   main .sec-01 #section-1 {
-    top: -10%;
+    top: 10%;
     left: 50%;
   }
   main .sec-01 div .sec-text {
@@ -590,7 +590,7 @@ main .cr .cr-t {
     line-height: 50px;
   }
   main .sec-01 #section-1 {
-    top: -10%;
+    top: -50%;
     left: 50%;
   }
   main .sec-01 div {
@@ -606,7 +606,7 @@ main .cr .cr-t {
             transform: translateY(-25%) translateX(25%);
   }
   main .sec-02 #section-2 {
-    top: -10%;
+    top: -50%;
     left: 50%;
   }
   main .sec-02 div {
@@ -622,7 +622,7 @@ main .cr .cr-t {
             transform: translateY(-25%) translateX(-25%);
   }
   main .sec-03 #section-3 {
-    top: -10%;
+    top: -50%;
     left: 50%;
   }
   main .sec-03 div {

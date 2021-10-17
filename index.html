@@ -8,6 +8,7 @@
     <link rel="icon" href="./images/browser-tab.svg">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Ksander Agency</title>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 <body>
     <div class="hero">
@@ -68,27 +69,27 @@
             </div>
             <img src="./images/2.jpg" alt="">
         </section>
-        <form action="https://formspree.io/f/mgerbwnl" method="post" id="my-form">
+        <form method="post" id="my-form">
             <h1>
                 Зв’яжіться з нами
             </h1>
             <div>
-                <input name="Phone Number" required id="pn" type="text">
+                <input name="PhoneNumber" id="pn" type="text">
                 <label for="pn">Номер Телефону</label>
             </div>
             <div>
-                <input name="E-mail" required id="email" type="email">
+                <input name="E-mail" id="email" type="email">
                 <label for="email">Електронна Пошта</label>
             </div>
             <div>
-                <input name="Name" required id="name" type="text">
+                <input name="Name" id="name" type="text">
                 <label for="name">Ім’я</label>
             </div>
             <div>
-                <input name="Message" required id="que" type="text">
-                <label for="que">Що організувати?</label>
+                <input name="Message" id="message" type="text">
+                <label for="message">Що організувати?</label>
             </div>
-            <button type="submit">Хочу Консультацію</button>
+            <button type="submit" value="Send Mail" onclick="sendEmail()">Хочу Консультацію</button>
         </form>
         <div id="status"></div>
         <section class="cr">
