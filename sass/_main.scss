@@ -6,6 +6,7 @@ main{
     flex-flow: column;
 
     .sec-01{
+        font-family: 'Gilroy', sans-serif;
         display: flex;
         justify-content: center;
         align-items: flex-start;
@@ -24,7 +25,6 @@ main{
             position: absolute;
             top: 0;
             left: 0;
-            font-family: 'Gilroy-Bold', sans-serif;
             font-weight: 700;
             font-size: 180px;
             color: #FFFFFF;
@@ -48,7 +48,6 @@ main{
 
             h1{
                 color: #FFFFFF;
-                font-family: 'Gilroy-Light', sans-serif;
                 font-weight: 400;
                 font-size: 40px;
                 padding: 20px 0;
@@ -56,7 +55,6 @@ main{
 
             .sec-text{
                 color: #FFFFFF;
-                font-family: 'Gilroy-Light', sans-serif;
                 font-weight: 700;
                 font-size: 15px;
                 line-height: 28px;
@@ -71,6 +69,7 @@ main{
     }
 
     .sec-02{
+        font-family: 'Gilroy', sans-serif;
         flex-flow: row-reverse;
         display: flex;
         justify-content: center;
@@ -90,7 +89,6 @@ main{
             position: absolute;
             top: 0;
             left: 0;
-            font-family: 'Gilroy-Bold', sans-serif;
             font-weight: 700;
             font-size: 180px;
             color: #FFFFFF;
@@ -115,7 +113,6 @@ main{
 
             h1{
                 color: #FFFFFF;
-                font-family: 'Gilroy-Light', sans-serif;
                 font-weight: 400;
                 font-size: 40px;
                 padding: 20px 0;
@@ -123,7 +120,6 @@ main{
 
             .sec-text{
                 color: #FFFFFF;
-                font-family: 'Gilroy-Light', sans-serif;
                 font-weight: 700;
                 font-size: 15px;
                 line-height: 28px;
@@ -138,6 +134,7 @@ main{
     }
 
     .sec-03{
+        font-family: 'Gilroy', sans-serif;
         display: flex;
         justify-content: center;
         align-items: flex-start;
@@ -156,7 +153,6 @@ main{
             position: absolute;
             top: 0;
             left: 0;
-            font-family: 'Gilroy-Bold', sans-serif;
             font-weight: 700;
             font-size: 180px;
             color: #FFFFFF;
@@ -180,7 +176,6 @@ main{
 
             h1{
                 color: #FFFFFF;
-                font-family: 'Gilroy-Light', sans-serif;
                 font-weight: 400;
                 font-size: 40px;
                 padding: 20px 0;
@@ -188,7 +183,6 @@ main{
 
             .sec-text{
                 color: #FFFFFF;
-                font-family: 'Gilroy-Light', sans-serif;
                 font-weight: 700;
                 font-size: 15px;
                 line-height: 28px;
@@ -203,6 +197,7 @@ main{
     }
 
     form{
+        font-family: 'Gilroy', sans-serif;
         width: 100%;
         display: flex;
         flex-flow: column;
@@ -211,7 +206,6 @@ main{
 
         h1{
             color: #FFFFFF;
-            font-family: 'Gilroy-Light', sans-serif;
             font-weight: 200;
             margin-bottom: 30px;
         }
@@ -224,7 +218,6 @@ main{
 
             label{
                 color: #FFFFFF;
-                font-family: 'Gilroy-Light', sans-serif;
                 font-weight: 200;
                 opacity: 0.7;
                 transform: translateY(-50px);
@@ -247,6 +240,7 @@ main{
         }
 
         button{
+            font-family: 'Gilroy', sans-serif;
             width: 270px;
             height: 80px;
             background: #C11454;
@@ -256,7 +250,6 @@ main{
             border: 0;
             outline: none;
             color: #FFFFFF;
-            font-family: 'Gilroy-Light', sans-serif;
             font-size: 18px;
             font-weight: 200;
             margin-top: 30px;
@@ -273,7 +266,7 @@ main{
         color: #FFFFFF;
 
         h1{
-            font-family: 'Chronicle Display', sans-serif;
+            font-family: 'Chronicle-Display', sans-serif;
             font-style: normal;
             font-weight: 300;
             letter-spacing: 0.01em;
@@ -282,11 +275,12 @@ main{
         }
 
         p{
+            font-family: 'Gilroy', sans-serif;
             padding: 20px 0;
-            font-family: 'Gilroy-Light', sans-serif;
         }
 
         .cr-t{
+            font-family: 'Gilroy', sans-serif;
             opacity: 0.6;
         }
     }

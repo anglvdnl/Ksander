@@ -1,7 +1,10 @@
 @import "hero";
 @import "main";
-@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
-@import url('http://fonts.cdnfonts.com/css/chronicle-display');
+@import url(../fonts/Gilroy/stylesheet.css);
+@font-face {
+  font-family: Chronicle-Display;
+  src: url(../fonts/ChronicleDisplay/ChronicleDisplay.otf);
+}
 
 * {
     box-sizing: border-box;

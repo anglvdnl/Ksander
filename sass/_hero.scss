@@ -9,7 +9,7 @@
     padding: 0 50px;
 
     nav{
-        font-family: 'Gilroy-Light', sans-serif;
+        font-family: 'Gilroy', sans-serif;
         height: 100px;
 
         .burger-menu{
@@ -36,7 +36,7 @@
             }
     
             h1{
-                font-family: 'Chronicle Display', sans-serif;
+                font-family: 'Chronicle-Display', sans-serif;
                 font-style: normal;
                 font-weight: 300;
                 letter-spacing: 0.01em;
@@ -47,7 +47,8 @@
     }
 
     .hero-info{
-        font-family: 'Gilroy-Light', sans-serif;
+        font-family: 'Gilroy', sans-serif;
+        font-weight: 300;
         color: #ffffff;
         margin: 200px 100px;
 
@@ -66,21 +67,17 @@
 
         a{
             font-size: 13px;
-            font-weight: 700;
+            font-weight: 400;
         }
     }
 
     .hero-inst{
         position: absolute;
         display: flex;
-        font-family: 'Gilroy-Light', sans-serif;
+        font-family: 'Gilroy', sans-serif;
         color: #ffffff;
         writing-mode: tb-rl;
         top: 240px;
-
-        p{
-            font-weight: 700;
-        }
 
         a{
             padding-top: 20px;

@@ -1,5 +1,4 @@
-@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
-@import url("http://fonts.cdnfonts.com/css/chronicle-display");
+@import url(../fonts/Gilroy/stylesheet.css);
 .hero {
   background: -webkit-gradient(linear, left bottom, left top, from(#911341), color-stop(25%, rgba(255, 255, 255, 0))), -webkit-gradient(linear, left top, right top, from(rgba(144, 19, 65, 0.5)), color-stop(60%, rgba(255, 255, 255, 0))), url(../images/Header.jpg);
   background: linear-gradient(0deg, #911341 0%, rgba(255, 255, 255, 0) 25%), linear-gradient(90deg, rgba(144, 19, 65, 0.5) 0%, rgba(255, 255, 255, 0) 60%), url(../images/Header.jpg);
@@ -12,7 +11,7 @@
 }
 
 .hero nav {
-  font-family: 'Gilroy-Light', sans-serif;
+  font-family: 'Gilroy', sans-serif;
   height: 100px;
 }
 
@@ -49,7 +48,7 @@
 }
 
 .hero nav .burger-menu h1 {
-  font-family: 'Chronicle Display', sans-serif;
+  font-family: 'Chronicle-Display', sans-serif;
   font-style: normal;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -58,7 +57,8 @@
 }
 
 .hero .hero-info {
-  font-family: 'Gilroy-Light', sans-serif;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 300;
   color: #ffffff;
   margin: 200px 100px;
 }
@@ -78,7 +78,7 @@
 
 .hero .hero-info a {
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .hero .hero-inst {
@@ -86,16 +86,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: 'Gilroy-Light', sans-serif;
+  font-family: 'Gilroy', sans-serif;
   color: #ffffff;
   -webkit-writing-mode: tb-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: tb-rl;
   top: 240px;
-}
-
-.hero .hero-inst p {
-  font-weight: 700;
 }
 
 .hero .hero-inst a {
@@ -116,6 +112,7 @@ main {
 }
 
 main .sec-01 {
+  font-family: 'Gilroy', sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -143,7 +140,6 @@ main .sec-01 .sec01-numb {
   position: absolute;
   top: 0;
   left: 0;
-  font-family: 'Gilroy-Bold', sans-serif;
   font-weight: 700;
   font-size: 180px;
   color: #FFFFFF;
@@ -176,7 +172,6 @@ main .sec-01 div hr {
 
 main .sec-01 div h1 {
   color: #FFFFFF;
-  font-family: 'Gilroy-Light', sans-serif;
   font-weight: 400;
   font-size: 40px;
   padding: 20px 0;
@@ -184,7 +179,6 @@ main .sec-01 div h1 {
 
 main .sec-01 div .sec-text {
   color: #FFFFFF;
-  font-family: 'Gilroy-Light', sans-serif;
   font-weight: 700;
   font-size: 15px;
   line-height: 28px;
@@ -199,6 +193,7 @@ main .sec-01 img {
 }
 
 main .sec-02 {
+  font-family: 'Gilroy', sans-serif;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-flow: row-reverse;
@@ -230,7 +225,6 @@ main .sec-02 .sec02-numb {
   position: absolute;
   top: 0;
   left: 0;
-  font-family: 'Gilroy-Bold', sans-serif;
   font-weight: 700;
   font-size: 180px;
   color: #FFFFFF;
@@ -265,7 +259,6 @@ main .sec-02 div hr {
 
 main .sec-02 div h1 {
   color: #FFFFFF;
-  font-family: 'Gilroy-Light', sans-serif;
   font-weight: 400;
   font-size: 40px;
   padding: 20px 0;
@@ -273,7 +266,6 @@ main .sec-02 div h1 {
 
 main .sec-02 div .sec-text {
   color: #FFFFFF;
-  font-family: 'Gilroy-Light', sans-serif;
   font-weight: 700;
   font-size: 15px;
   line-height: 28px;
@@ -288,6 +280,7 @@ main .sec-02 img {
 }
 
 main .sec-03 {
+  font-family: 'Gilroy', sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -314,7 +307,6 @@ main .sec-03 .sec03-numb {
   position: absolute;
   top: 0;
   left: 0;
-  font-family: 'Gilroy-Bold', sans-serif;
   font-weight: 700;
   font-size: 180px;
   color: #FFFFFF;
@@ -347,7 +339,6 @@ main .sec-03 div hr {
 
 main .sec-03 div h1 {
   color: #FFFFFF;
-  font-family: 'Gilroy-Light', sans-serif;
   font-weight: 400;
   font-size: 40px;
   padding: 20px 0;
@@ -355,7 +346,6 @@ main .sec-03 div h1 {
 
 main .sec-03 div .sec-text {
   color: #FFFFFF;
-  font-family: 'Gilroy-Light', sans-serif;
   font-weight: 700;
   font-size: 15px;
   line-height: 28px;
@@ -370,6 +360,7 @@ main .sec-03 img {
 }
 
 main form {
+  font-family: 'Gilroy', sans-serif;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -386,7 +377,6 @@ main form {
 
 main form h1 {
   color: #FFFFFF;
-  font-family: 'Gilroy-Light', sans-serif;
   font-weight: 200;
   margin-bottom: 30px;
 }
@@ -407,7 +397,6 @@ main form div {
 
 main form div label {
   color: #FFFFFF;
-  font-family: 'Gilroy-Light', sans-serif;
   font-weight: 200;
   opacity: 0.7;
   -webkit-transform: translateY(-50px);
@@ -430,6 +419,7 @@ main form div input:focus + label {
 }
 
 main form button {
+  font-family: 'Gilroy', sans-serif;
   width: 270px;
   height: 80px;
   background: #C11454;
@@ -440,7 +430,6 @@ main form button {
   border: 0;
   outline: none;
   color: #FFFFFF;
-  font-family: 'Gilroy-Light', sans-serif;
   font-size: 18px;
   font-weight: 200;
   margin-top: 30px;
@@ -458,7 +447,7 @@ main .cr {
 }
 
 main .cr h1 {
-  font-family: 'Chronicle Display', sans-serif;
+  font-family: 'Chronicle-Display', sans-serif;
   font-style: normal;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -467,12 +456,18 @@ main .cr h1 {
 }
 
 main .cr p {
+  font-family: 'Gilroy', sans-serif;
   padding: 20px 0;
-  font-family: 'Gilroy-Light', sans-serif;
 }
 
 main .cr .cr-t {
+  font-family: 'Gilroy', sans-serif;
   opacity: 0.6;
+}
+
+@font-face {
+  font-family: Chronicle-Display;
+  src: url(../fonts/ChronicleDisplay/ChronicleDisplay.otf);
 }
 
 * {
