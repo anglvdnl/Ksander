@@ -1,0 +1,89 @@
+
+.hero{
+    background: linear-gradient(0deg, rgba(145,19,65,1) 0%, rgba(255,255,255,0) 25%), linear-gradient(90deg, rgba(144,19,65,0.5) 0%, rgba(255,255,255,0) 60%), url(../images/Header.jpg);
+    background-size: cover;
+    background-position: right top;
+    position: relative;
+    height: 165vh;
+    width: 100%;
+    padding: 0 50px;
+
+    nav{
+        font-family: 'Gilroy-Light', sans-serif;
+        height: 100px;
+
+        .burger-menu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+
+            .burger-menu-icon{
+                display: none;
+            }
+
+            ul{
+                list-style: none;
+                color: #ffffff;
+                display: flex;
+                text-align: center;
+    
+                li{
+                    padding-left: 20px;
+                    font-weight: 700;
+                    max-width: 100%;
+                }
+            }
+    
+            h1{
+                font-family: 'Chronicle Display', sans-serif;
+                font-style: normal;
+                font-weight: 300;
+                letter-spacing: 0.01em;
+                text-transform: capitalize;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    .hero-info{
+        font-family: 'Gilroy-Light', sans-serif;
+        color: #ffffff;
+        margin: 200px 100px;
+
+        .hero-hr{
+            background-color: #FBD784;
+            width: 316px;
+            height: 2px;
+            border: 0;
+        }
+
+        p{
+            font-weight: 400;
+            font-size: 55px;
+            line-height: 100px;
+        }
+
+        a{
+            font-size: 13px;
+            font-weight: 700;
+        }
+    }
+
+    .hero-inst{
+        position: absolute;
+        display: flex;
+        font-family: 'Gilroy-Light', sans-serif;
+        color: #ffffff;
+        writing-mode: tb-rl;
+        top: 240px;
+
+        p{
+            font-weight: 700;
+        }
+
+        a{
+            padding-top: 20px;
+        }
+    }
+}
