@@ -541,3 +541,9 @@
     }
   }
 }
+
+@media screen and (orientation:landscape) and (max-width: 900px) {
+  .hero{
+    height: 165vh;
+  }
+}

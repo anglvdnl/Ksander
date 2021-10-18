@@ -57,6 +57,7 @@
 }
 
 .hero .hero-info {
+  position: relative;
   font-family: 'Gilroy', sans-serif;
   font-weight: 300;
   color: #ffffff;
@@ -979,6 +980,12 @@ main .cr .cr-t {
   main .cr p {
     padding: 12px 0;
     font-size: 10px;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-width: 900px) {
+  .hero {
+    height: 165vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
