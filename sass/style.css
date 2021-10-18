@@ -720,7 +720,7 @@ main .cr .cr-t {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .hero {
     height: 100vh;
     padding: 0 20px;
