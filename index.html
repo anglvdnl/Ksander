@@ -8,7 +8,6 @@
     <link rel="icon" href="./images/browser-tab.svg">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Ksander Agency</title>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 <body>
     <div class="hero">
@@ -89,9 +88,9 @@
                 <input name="Message" id="message" type="text">
                 <label for="message">Що організувати?</label>
             </div>
-            <button type="submit" value="Send Mail" onclick="sendEmail()">Хочу Консультацію</button>
+            <button class="submit-form" type="submit">Хочу Консультацію</button>
         </form>
-        <div id="status"></div>
+        <span id="bottom"></span>
         <section class="cr">
             <h1 class="logo">
                 KSANDER AGENCY
@@ -106,6 +105,10 @@
             </p>
         </section>
     </main>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
 </body>
-<script src="./main.js"></script>
 </html>
