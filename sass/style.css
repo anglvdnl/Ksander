@@ -92,11 +92,12 @@
   -webkit-writing-mode: tb-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: tb-rl;
-  top: 240px;
+  top: -50px;
+  left: -100px;
 }
 
 .hero .hero-inst a {
-  padding-top: 20px;
+  font-size: 16px;
 }
 
 main {
